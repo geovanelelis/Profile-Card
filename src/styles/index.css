@@ -80,8 +80,7 @@ body {
   background: linear-gradient(to top, #d7d7d7, #f8f8f8);
   border-radius: 50%;
   transform: scale(0.9);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.75),
-    inset 0 3px 2px rgb(255, 255, 255),
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.75), inset 0 3px 2px rgb(255, 255, 255),
     inset 0 -1.5px 3px rgb(255, 255, 255);
   transition: 0.5s;
 }
