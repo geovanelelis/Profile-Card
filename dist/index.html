@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estruturando um Projeto Moderno</title>
+    <link
+      rel="stylesheet"
+      href="../src/styles/index.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/097f562643.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.min.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <!-- TOGGLE MODE -->
+      <span id="toggle">
+        <i class="indicator"></i>
+      </span>
+      <!-- CARD -->
+      <main id="card">
+        <div class="photo">
+          <img
+            src="../src/styles/images/profile-photo-white.png"
+            alt="profile photo"
+          />
+        </div>
+
+        <div class="background"></div>
+
+        <div class="content-card">
+          <!-- ABOUT ME -->
+          <div class="details">
+            <h2>
+              Geovane Silva <br />
+              <span>Desenvolvedor Front-end</span>
+            </h2>
+            <div>
+              <i class="fa-solid fa-caret-down" id="drop-button"></i>
+            </div>
+            <div class="aboutMe-text">
+              <h1>Hello<span>!</span></h1>
+              <p class="text">
+                👋Sou Geovane, um estudante de Engenharia de Computação com uma
+                paixão por desenvolvimento web. Embarcando na jornada para me
+                tornar um desenvolvedor Full Stack! 🚀
+              </p>
+            </div>
+          </div>
+          <!-- CARD PLUS -->
+          <div class="card-plus">
+            <div class="plus-button">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="card-back">
+              <!-- SOCIAL MEDIA -->
+              <div id="social-media">
+                <div class="social-control">
+                  <div id="social-toggle">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <span class="social-text">Minhas redes</span>
+                  <ul class="social-icons">
+                    <a href="https://github.com/geovanelelis" target="_blank"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/geovanelelis/"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/geovanelelis"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </ul>
+                </div>
+              </div>
+              <!-- SKILLS -->
+              <div class="dev-icons">
+                <p class="skills-text">Minhas skills</p>
+                <i class="fa-brands fa-js" style="--color: #ffc400"></i>
+                <i
+                  class="devicon-html5-plain-wordmark"
+                  style="--color: #e95500"
+                ></i>
+                <i
+                  class="devicon-css3-plain-wordmark"
+                  style="--color: #006de9"
+                ></i>
+                <i class="fa-brands fa-react" style="--color: #00c7f3"></i>
+                <i class="devicon-java-plain" style="--color: #d2201a"></i>
+                <i class="devicon-c-plain" style="--color: #0d68d0"></i>
+                <i class="fa-brands fa-wordpress" style="--color: #1a75ae"></i>
+              </div>
+              <!-- CONTACT AND ORTFOLIO BUTTON -->
+              <span class="contact">
+                <a href="https://github.com/geovanelelis" target="_blank"
+                  ><button class="myPortfolio">Ver Portfólio</button></a
+                >
+                <a href="mailto: geovanelelisds@gmail.com" target="_blank">
+                  <button class="contactMe">Contacte-me</button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
