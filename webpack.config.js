@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    index: '/js/index.js',
+    index: './src/js/index.js',
   },
   mode: 'production',
   module: {
