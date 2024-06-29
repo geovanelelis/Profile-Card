@@ -3,7 +3,8 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>
 </p>
 
 <br>
@@ -29,6 +30,10 @@ O projeto foi desenvolvido com o intuito de aplicar os conhecimentos adquiridos 
 
 O Layout foi elaborado por mim mesmo, portanto, tive a liberdade de personalizá-lo da maneira que achei mais adequada.
 
+## 🔗 Deploy
+
+O deploy desta aplicação está disponivel em: https://profilecard-geovane.netlify.app/
+
 ## :memo: Licença
 
- 2024 Desenvolvido por Geovane Silva
+ 2024 © Desenvolvido por Geovane Silva
