@@ -1,3 +1,6 @@
+import profilePhotoWhite from '../img/profile-photo-white.png';
+import profilePhotoDark from '../img/profile-photo-dark.png';
+
 const toggle = document.getElementById('toggle'),
   body = document.querySelector('body'),
   profilePhoto = document.querySelector('.photo img');
@@ -8,7 +11,7 @@ export default function toggleMode() {
     body.classList.toggle('dark-mode');
 
     body.classList.contains('dark-mode')
-      ? profilePhoto.setAttribute('src', '../src/img/profile-photo-dark.png')
-      : profilePhoto.setAttribute('src', '../src/img/profile-photo-white.png');
+      ? profilePhoto.setAttribute('src', profilePhotoDark)
+      : profilePhoto.setAttribute('src', profilePhotoWhite);
   });
 }
