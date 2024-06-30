@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Profile Card" src="./src/images/wallpaper-profile-card.png" width="100%">
+  <img alt="projeto Profile Card" src="./src/img/wallpaper-profile-card.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
